@@ -3,8 +3,8 @@
 ## Tutorial
 1. Conda environment
 ```bash
-conda create -n martingale_bot python=3.9
-conda activate martingale_bot
+conda create -n martingale python=3.9
+conda activate martingale
 ```
 2. Install dependencies based on environment.yml
 ```bash
@@ -15,5 +15,5 @@ conda env update --file environment.yml
 ```bash
 CMC_API_KEY=your_api_key
 ```
-5. Run the bot in `main.ipynb`, be sure to have the kernel set to `martingale_bot`
+5. Run the bot in `main.ipynb`, be sure to have the kernel set to `martingale`
 6. Enjoy!

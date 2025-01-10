@@ -1,12 +1,7 @@
 import json
-import requests
-from datetime import datetime, timedelta
 import os
-import pandas as pd
 import requests
 from dotenv import load_dotenv
-from datetime import datetime, timedelta
-
 
 
 def fetch_top_100_symbols_cmc(api_key, log_file):
